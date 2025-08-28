@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Loader from '../components/Loader';
-import {link} from "react-router-dom"
+import Loader from '../component/Loader';
+import {Link} from "react-router-dom"
 
 const Home = () => {
    const [error, setError]= useState("")
